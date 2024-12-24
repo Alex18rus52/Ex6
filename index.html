@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4"><div class="card" style="width: 18rem;">
+                    <img src="./img/camp-nou.jpg" class="card-img-top" alt="Барс">
+                    <div class="card-body">
+                      <h5 class="card-title">Камп Ноу</h5>
+                      <p class="card-text">Посети стадион, на котором играет Барселона.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Купит билет</button>
+                    </div>
+                  </div></div>
+                <div class="col-lg-4"><div class="card" style="width: 18rem;">
+                    <img src="./img/old-trafford.jpeg" class="card-img-top" alt="МЮ">
+                    <div class="card-body">
+                      <h5 class="card-title">Олд-Траффорд</h5>
+                      <p class="card-text">Посети стадион, на котором играет Манчестер Юнайтед.</p>
+                      <a href="#" class="btn btn-primary">Купить билет</a>
+                    </div>
+                  </div></div>
+                <div class="col-lg-4"><div class="card" style="width: 18rem;">
+                    <img src="./img/Niz2.jpg" class="card-img-top" alt="Нижний">
+                    <div class="card-body">
+                      <h5 class="card-title">Стадион Нижний</h5>
+                      <p class="card-text">Посети стадион, на котором играет Пари НН.</p>
+                      <a href="#" class="btn btn-primary">Купить билет</a>
+                    </div>
+                  </div></div>
+            </div>
+        </div>
+    </div>
+    <a href="form.html" class="fwork">Вторая страница</a>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+                <div class="col-2 offset-4">
+                    <label for="email1">Email</label>
+                </div>
+                <div class="col-8 offset-4">
+                    <input type="email" id="email1" placeholder="Введите email">
+                    <div id="emailHelp" class="form-text">Введите ваш email</div>
+                </div>
+                <div class="col-8 offset-4">
+                    <label for="password1">Пароль</label>
+                </div>
+                <div class="col-8 offset-4">
+                    <input type="password" id="password1" placeholder="Пароль">
+                </div>
+                <div class="col-8 offset-4">
+                    <input type="checkbox" class="form-check-input" id="check1">
+                    <label for="check1" class="form-check-label">Чекбокс</label>
+                </div>
+                <div class="col-8 offset-4">
+                    <input type="button" class="btn btn-success" value="Войти">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
